@@ -1,13 +1,25 @@
 html {
 	color: white;
 	background-color: #003568;
+	font-size: 20px;
 }
 
 .header {
 	background-color: white;
+	width:100%;
+	overflow:hidden
 	top: 0;
 	color: black;
 	font-size: 30px;
+}
+
+.bar-item {
+	padding:8px 16px;
+	float:left;
+	width:auto;
+	border:none;
+	display:block;
+	outline:0;
 }
 
 footer {
