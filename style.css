@@ -4,13 +4,20 @@ html {
 }
 
 .header {
+	background-color: white;
 	top: 0;
+	color: black;
+	font-size: 30px;
 }
 
-.footer {
-	background-color: red;
+footer {
+	background-color: #CA300F;
 }
 
+.centered-table {
+	margin-left: auto;
+	margin-right: auto;
+}
 .right {
 	float: right;
 }
