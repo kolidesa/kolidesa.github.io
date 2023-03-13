@@ -20,20 +20,155 @@
 	  </div>
 	</div>
 
+	<div class='blackbox'>
+			<h1 class='center'>Projects I've worked on:</h1>
+			<!--Slideshow of work experience-->
+			<div class='slideshow-container'>
+				<div class='slides'>
+					<p>
+						<h1>Senior Capstone Project</h1>
+						<table class='slide-table'>
+							<tr>
+								<th>
+									Something
+								</th>
+								<th>
+									Somthing
+								</th>
+							</tr>
+							<tr>
+								<th>
+									Details:
+								</th>
+							</tr>
+						</table>
+						<ul class='slides-list'>
+							<li>Independently designed and programmed a website using JavaServer Pages, a Tomcat server, and a Microsoft Access database that allows users to offer up items for trade</li>
+						</ul>
+					</p>
+				</div>
 
+				<div class='slides'>
+					<p>
+						<h1>Educational Software Program</h1>
+						<table class='slide-table'>
+							<tr>
+								<th>
+									Something
+								</th>
+								<th>
+									Somthing
+								</th>
+							</tr>
+							<tr>
+								<th>
+									Details:
+								</th>
+							</tr>
+						</table>
+						<ul class='slides-list'>
+							<li>Collaborated with a group of students to design an interactive educational simulation program</li>
+						</ul>
+					</p>
+				</div>
 
-	<p>
-		<h2>Projects I've worked on:</h2>
-		<ul>
-			<li>Independently designed and programmed a website using JavaServer Pages, a Tomcat server, and a
-			Microsoft Access database that allows users to offer up items for trade</li>
-			<li>Collaborated with a group of students to design an interactive educational simulation program</li>
-			<li>Designed and coded a program to implement a new variation of encryption using photos
-				<a href='https://github.com/kolidesa/photo-encryption'>Github link</a></li>
-			<li>Coded a simple shopping app that utilized MongoDB and Mongoose</li>
+				<div class='slides'>
+					<p>
+						<h1>Photo Encryption</h1>
+						<table class='slide-table'>
+							<tr>
+								<th>
+									Something
+								</th>
+								<th>
+									Somthing
+								</th>
+							</tr>
+							<tr>
+								<th>
+									Details:
+								</th>
+							</tr>
+						</table>
+						<ul class='slides-list'>
+							<li>Designed and coded a program to implement a new variation of encryption using photos
+							<a href='https://github.com/kolidesa/photo-encryption'>Github link</a></li>
+						</ul>
+					</p>
+				</div>
+
+				<div class='slides'>
+					<p>
+						<h1>Simple Web-Based Technology Programs</h1>
+						<table class='slide-table'>
+							<tr>
+								<th>
+									Something
+								</th>
+								<th>
+									Somthing
+								</th>
+							</tr>
+							<tr>
+								<th>
+									Details:
+								</th>
+							</tr>
+						</table>
+						<ul class='slides-list'>
+							<li>Coded a simple shopping app that utilized MongoDB and Mongoose</li>
 			<li>Coded a basic chat room using a Tomcat server</li>
-		</ul>
-	</p>
+						</ul>
+					</p>
+				</div>
+
+				<!-- Next/prev buttons -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+		</div>
+
+			<!-- Dots/bullets/indicators -->
+			<div class="dot-container">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+			</div>
+			<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("slides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {
+			  	slideIndex = 1
+			  }
+			  if (n < 1) {
+			  	slideIndex = slides.length
+			  }
+			  for (i = 0; i < slides.length; i++) {
+			    slides[i].style.display = "none";
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			    dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";
+			  dots[slideIndex-1].className += " active";
+			}
+		</script>
+		</p>
+
 
 
 	<footer>
