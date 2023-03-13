@@ -271,6 +271,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 
 
+/*Contact form*/
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
@@ -286,8 +287,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
+  background-color: lightgrey;
+  color: black;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -295,15 +296,18 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #darkgray;
 }
+
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+  background-color: grey;
+  padding: 10px;
 }
 
+
+/*Work Experience Slideshow*/
 /* Slideshow container */
 .slideshow-container {
   position: relative;
@@ -313,8 +317,8 @@ input[type=submit]:hover {
 /* Slides */
 .slides {
   display: none;
-  padding: 20px;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 /* Next & previous buttons */
@@ -390,4 +394,52 @@ input[type=submit]:hover {
 .skill-lists {
 	text-align: left;
 	list-style-position: inside;
+}
+.center {
+	text-align: center;
+}
+
+.education {
+	width: 50%;
+	background-color: white;
+	color: black;
+	padding-bottom: 20px;
+}
+
+.education-div {
+	width: 25%;
+	vertical-align: text-top;
+}
+
+.center-div {
+	text-align: center;
+}
+.skills {
+	width: 50%;
+	margin-left: 50%;
+	background-color: gray;
+}
+.skills-div {
+	width: 25%;
+}
+
+hr {
+	height: 10px;
+	border-width: 5px;
+	padding: 0px;
+}
+
+.intro {
+	width: 50%;
+	font-size: 20px;
+	text-align: left;
+	padding: 20px;
+	float: left;
+}
+
+.circular_image {
+	width: 300px;
+  	height: 300px;
+  	border-radius: 50%;
+  	object-fit: cover;
 }
