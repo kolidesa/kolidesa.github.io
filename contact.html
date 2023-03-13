@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--Header-->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="#home" class="w3-bar-item w3-button"><b>Adam Kolides</b></a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="about.html" class="w3-bar-item w3-button">About me</a>
+        <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
+      </div>
+    </div>
+  </div>
+
+    <h3>Contact Form</h3>
+
+    <div class="container">
+      <!--Need to update the action when form is submitted-->
+      <form action="mailto:AKinqury@gmail.com" method='POST' enctype='multipart/form-data' name='EmailForm'>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <footer>
+      <p>
+        &copy 2023
+        <table class='centered-table'>
+          <tr>
+            <th>
+              <a href='https://github.com/kolidesa'>Github</a>
+            </th>
+            <th>
+              <a href='http://www.linkedin.com/in/adam-kolides-6b0b5119b'>LinkedIn</a>
+            </th>
+            <th>
+              <a href='contact.html'>Contact me</a>
+            </th>
+          </tr>
+        </table>
+      </p>
+    </footer>
+  </body>
+</html>

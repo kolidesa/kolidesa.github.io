@@ -1,44 +1,237 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<h1>ABOUT ME!</h1>
-
-<!--Header-->
-<div class='header right'>
-	<table> 
-		<tr>
-			<th>
-				<a href="index.html">Home</a>
-			</th>
-			<th>
-				<a href="about.html">About me</a>
-			</th>
-			<th>
-				<a href="projects.html">Projects</a>
-			</th>
-		</tr>
-	</table>
-</div>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	<body>
+		<!--Header-->
+		<div class="w3-top">
+		  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+		    <a href="#home" class="w3-bar-item w3-button"><b>Adam Kolides</b></a>
+		    <!-- Float links to the right. Hide them on small screens -->
+		    <div class="w3-right w3-hide-small">
+		      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+		      <a href="about.html" class="w3-bar-item w3-button">About me</a>
+		      <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
+		    </div>
+		  </div>
+		</div>
 
 
+		<h1>About me!</h1>
+		<p>
+			<table>
+				<tr>
+					<th>
+						<h1>My Skills</h1>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						Experience with:
+						<ul class='skill-lists'>
+							<li>Data Structures</li>
+							<li>Algorithms</li>
+							<li>Computer Networks</li>
+							<li>Computer Security</li>
+							<li>Database management</li>
+							<li>Linux</li>
+							<li>Artificial Intelligence</li>
+							<li>Machine Learning</li>
+						</ul>
+					</th>
+					<th>
+						Proficient in:
+						<ul class='skill-lists'>
+							<li>Java</li>
+							<li>C++</li>
+							<li>Python</li>
+							<li>Assembly Language</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>SQL</li>
+						</ul>
+					</th>
+				</tr>
+			</table>
 
-<!-- Elevator pitch-->
+
+			<!--Slideshow of work experience-->
+			<div class='slideshow-container'>
+				<div class='slides'>
+					<p>
+						<h1>Privacy and Security Intern</h1>
+						<table class='slide-table'>
+							<tr>
+								<th class='res-slide'>
+									Company: Apotex
+								</th>
+								<th class='table-right'>
+									<em>From May 2022 to August 2022</em>
+								</th>
+							</tr>
+							<tr>
+								<th class='res-slide'>
+									Responsibilities:
+								</th>
+							</tr>
+						</table>
+						<ul class='slides-list'>
+							<li>Monitored security dashboards daily</li>
+							<li>Designed and coded multiple SQL queries</li>
+							<li>Analyzed current company policies to determine compliance with ISO 27001 standard</li>
+							<li>Prepared an RFI for MDR/MSS providers and reports comparing security SOPs</li>
+						</ul>
+					</p>
+				</div>
+
+				<div class='slides'>
+					<p>
+						<h1>Computer Science Teaching Assistant</h1>
+						<table class='slide-table'>
+							<tr>
+								<th class='res-slide'>
+									Company: Duquesne University
+								</th>
+								<th class='table-right'>
+									<em>From May 2022 to Present</em>
+								</th>
+							</tr>
+							<tr>
+								<th class='res-slide'>
+									Responsibilities:
+								</th>
+							</tr>
+						</table>
+						<ul class='slides-list'>
+							<li>Instructed 3 lab sections for undergrad Java and Assembly Languages courses</li>
+							<li>Tracked students’ grades, attendance, and understanding of course concepts</li>
+							<li>Graded programs for 2 sections of undergrad Data Structures</li>
+							<li>Assisted instructor in code reviews for undergrad Senior Capstone course</li>
+						</ul>
+					</p>
+				</div>
+
+				<div class='slides'>
+					<p>
+						<h1>Computer Science Tutor</h1>
+						<table class='slide-table'>
+							<tr>
+								<th>
+									Company: Duquesne University
+								</th>
+								<th class='table-right'>
+									<em>From August 2019 to May 2022</em>
+								</th>
+							</tr>
+							<tr>
+								<th class='res-slide'>
+									Responsibilities:
+								</th>
+							</tr>
+						</table>
+						<ul class='slides-list'>
+							<li>Tutor 11 hours per week to help students comprehend a variety of subjects</li>
+							<li>Monitored tutoree progress and communicated this with the course professors</li>
+							<li>Topics tutored: Java, Python, Assembly Language, Data Structures, Algorithms, Discrete Math, Operating Systems, and Web-Based Systems</li>
+						</ul>
+					</p>
+				</div>
+
+				<div class='slides'>
+					<p>
+						<h1>Summer IT Assistant</h1>
+						<table class='slide-table'>
+							<tr>
+								<th>
+									Company: Montville Township High School
+								</th>
+								<th class='table-right'>
+									<!--Need to update this entire section!-->
+									<em>From August 2019 to May 2022</em>
+								</th>
+							</tr>
+							<tr>
+								<th class='res-slide'>
+									Responsibilities:
+								</th>
+							</tr>
+						</table>
+						<ul class='slides-list'>
+							<li>Instructed 3 lab sections for undergrad Java and Assembly Languages courses</li>
+							<li>Tracked students’ grades, attendance, and understanding of course concepts</li>
+							<li>Graded programs for 2 sections of undergrad Data Structures</li>
+							<li>Assisted instructor in code reviews for undergrad Senior Capstone course</li>
+						</ul>
+					</p>
+				</div>
+
+				<!-- Next/prev buttons -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+
+			<!-- Dots/bullets/indicators -->
+			<div class="dot-container">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+			</div>
+			<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("slides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {
+			  	slideIndex = 1
+			  }
+			  if (n < 1) {
+			  	slideIndex = slides.length
+			  }
+			  for (i = 0; i < slides.length; i++) {
+			    slides[i].style.display = "none";
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			    dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";
+			  dots[slideIndex-1].className += " active";
+			}
+		</script>
+		</p>
 
 
-
-
-
-<p>I'm hosted with GitHub Pages.</p>
-
-
-<dev id='footer'>
-	<!--LinkedIn profile-->
-	<!--Github link-->
-	<!--Contact info-->
-</dev>
-
-</body>
+		<footer>
+			<p>
+				&copy 2023
+				<table class='centered-table'>
+					<tr>
+						<th>
+							<a href='https://github.com/kolidesa'>Github</a>
+						</th>
+						<th>
+							<a href='http://www.linkedin.com/in/adam-kolides-6b0b5119b'>LinkedIn</a>
+						</th>
+						<th>
+							<a href='contact.html'>Contact me</a>
+						</th>
+					</tr>
+				</table>
+			</p>
+		</footer>
+	</body>
 </html>
