@@ -458,4 +458,6 @@ hr {
 	object-fit: contain;
 }
 
-
+.same-line {
+	display: flex;
+}
