@@ -38,6 +38,9 @@ footer p {
 	text-align: center;
 }
 
+.table-center td {
+	background-color: dimgray;
+}
 
 
 
@@ -383,6 +386,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .center {
 	text-align: center;
 }
+
+/*.center p {
+	margin: 0;
+	padding: 0;
+}*/
 
 .education {
 	width: 50%;
