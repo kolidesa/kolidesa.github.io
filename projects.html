@@ -22,7 +22,7 @@
 
 	<div class='blackbox'>
 			<h1 class='center'>Projects I've worked on:</h1>
-			<!--Slideshow of work experience-->
+			<!--Slideshow of projects-->
 			<div class='slideshow-container'>
 				<div class='slides'>
 					<p>
@@ -33,7 +33,7 @@
 									Something
 								</th>
 								<th>
-									Somthing
+									Something
 								</th>
 							</tr>
 							<tr>
@@ -57,7 +57,7 @@
 									Something
 								</th>
 								<th>
-									Somthing
+									Something
 								</th>
 							</tr>
 							<tr>
@@ -81,7 +81,7 @@
 									Something
 								</th>
 								<th>
-									Somthing
+									Something
 								</th>
 							</tr>
 							<tr>
@@ -138,6 +138,11 @@
 			<script>
 			var slideIndex = 1;
 			showSlides(slideIndex);
+			slideIndex++;
+			setInterval(function() {
+				showSlides(slideIndex);
+				slideIndex++;
+			}, 5000);
 
 			function plusSlides(n) {
 			  showSlides(slideIndex += n);
