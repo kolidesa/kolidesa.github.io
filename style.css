@@ -1,6 +1,6 @@
 html {
-	color: white;
-	background-color: #003568;
+	color: black;
+	background-color: lightgray;
 	font-size: 20px;
 }
 
@@ -10,7 +10,14 @@ img {
 }
 
 footer {
-	background-color: #CA300F;
+	bottom: 0;
+	/*position: fixed;*/
+	padding-bottom: 10px;
+	display: flex;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	color: white;
 }
 
 .centered-table {
@@ -25,6 +32,14 @@ footer {
 	margin-right: auto;
 }
 
+.padded {
+	padding: 25px;
+}
+
+.verticalCentered {
+	vertical-align: top;
+}
+
 .right {
 	float: right;
 }
@@ -33,15 +48,6 @@ footer {
 	margin-left: 12%;
 	margin-top: 2.5%;
 }
-
-footer p {
-	text-align: center;
-}
-
-
-
-
-
 
 
 
@@ -291,6 +297,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 /* Slides */
 .slides {
+	color: white;
   display: none;
   text-align: center;
   /*padding-top: 5%;*/
@@ -350,6 +357,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 .slide-table {
+	color: white;
 	margin-left: 15%;
 	margin-right: 35%;
 	padding-left: 10%;
@@ -445,10 +453,8 @@ hr {
 }
 
 .logo {
-	width: 15%;
+	width: auto;
 	height: auto;
-	margin-right: 15%;
-	float: right;
 	object-fit: cover;
 }
 
@@ -458,6 +464,42 @@ hr {
 	object-fit: contain;
 }
 
+.border {
+	border: 2.5px solid gray;
+}
+
 .same-line {
 	display: flex;
+	float: left;
+	padding: 10px;
+}
+
+.white-square {
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+
+.hide {
+	display:none !important;
+}
+
+.show {
+	display:block !important;
+	background-color: white;
+}
+
+.indent {
+		margin-left: 5%;
+		margin-right: 5%;
+}
+
+.block {
+	text-align: left;
+	color: white;
+	font-size: 20px;
+	background-color: black;
+	display:block;
+	width:100%;
+	height: 15%;
 }
