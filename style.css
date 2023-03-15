@@ -288,20 +288,20 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 
 
-/*Work Experience Slideshow*/
+/*Slideshow*/
+
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  background: black;
 }
 
 /* Slides */
 .slides {
 	color: white;
-  display: none;
-  text-align: center;
-  /*padding-top: 5%;*/
-  padding-bottom: 40px;
+  	display: none;
+  	text-align: center;
+  	/*padding-top: 5%;*/
+  	padding-bottom: 40px;
 }
 
 /* Next & previous buttons */
@@ -336,7 +336,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .dot-container {
   text-align: center;
   padding: 20px;
-  background: black;
 }
 
 /* The dots/bullets/indicators */
@@ -390,11 +389,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .center {
 	text-align: center;
 }
-
-/*.center p {
-	margin: 0;
-	padding: 0;
-}*/
 
 .education {
 	width: 50%;
@@ -464,6 +458,12 @@ hr {
 	object-fit: contain;
 }
 
+.table-image {
+	width: 25%;
+	heigth: auto;
+	object-fit: contain;
+}
+
 .border {
 	border: 2.5px solid gray;
 }
@@ -472,6 +472,22 @@ hr {
 	display: flex;
 	float: left;
 	padding: 10px;
+}
+
+.white-text {
+	color: white;
+}
+
+.black-text {
+	color: black;
+}
+
+.white-background {
+	background-color: white;
+}
+
+.black-background {
+	background-color: black;
 }
 
 .white-square {
