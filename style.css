@@ -476,19 +476,19 @@ hr {
 }
 
 .white-text {
-	color: white;
+	color: white !important;
 }
 
 .black-text {
-	color: black;
+	color: black !important;
 }
 
 .white-background {
-	background-color: white;
+	background-color: white !important;
 }
 
 .black-background {
-	background-color: black;
+	background-color: black !important;
 }
 
 .white-square {
