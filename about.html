@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="style.css">
 		
 	</head>
-	<body>
+	<body onload="updateCS()">
 		<!--Header-->
 		<div class="w3-top">
 		  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
@@ -24,25 +24,26 @@
 		<br>
 		<br>
 		<br>
-		<h1 class='center w3-animate-left'>About me</h1>
+		<h1 class='indent w3-animate-left'>About me</h1>
 
-		<button onclick="expand('general')" class='block w3-round-xxlarge indent'>General</button>
+		<button onclick="expand('general')" class='block w3-round-xxlarge indent bigger-font'>
+			<div id='generalButton'>General</div>
+		</button>
 		<!--My story?-->
 		<div id='general' class='indent hide'>
 			<p>Something general
 				<br>
 				I have 
 				<!--I first started coding in 9th grade and I discovered that I really enjoyed the near endless possibilities it provided-->
-
-
 			</p>
 		</div>
 
-		<button onclick="expand('education')" class='block w3-round-xxlarge'>Education</button>
+		<button onclick="expand('education')" class='block w3-round-xxlarge bigger-font'>
+			<div id='educationButton'>Education</div>
+		</button>
 		<div id='education' class='indent hide'>
 			<table class="centered-table">
 				<tr>
-					
 					<td class='padded'>
 						Masters of Science, Computer Science
 						<br>
@@ -67,26 +68,52 @@
 		</div>
 		
 		<!--Skills Section-->
-		<button onclick="expand('skills')" class='block w3-round-xxlarge'>Skills</button>
+		<button onclick="expand('skills')" class='block w3-round-xxlarge bigger-font center'>
+			<div id='skillsButton'>Skills</div>
+		</button>
 		<div id='skills' class='indent hide'>
 
 			<!--Computer Science Skills Section-->
-			<button onclick="expand('cs')" class='block white-background black-text'>Computer Science Skills</button>
+			<button onclick="expand('cs')" class='block white-background black-text center'>Computer Science Skills</button>
 			<div id='cs' class='indent hide'>
 				<table class='centered-table'>	
 					<tr>
 						<td class='skills-div'>
 							Proficient in:
-							<ul class='skill-lists'>
-								<li>Java</li>
-								<li>C++</li>
-								<li>Python</li>
-								<li>Assembly Language</li>
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>JavaScript</li>
-								<li>SQL</li>
-							</ul>
+							<table class='center border font-increase'>
+								<tr>
+									<th>Language</th>
+									<th>Years</th>
+								</tr>
+								<tr class='border'>
+									<td class='left-align'>Java</td>
+									<td id="cs0">0</td>
+								</tr>
+								<tr>
+									<td>C++</td>
+									<td id="cs1">1</td>
+								</tr>
+								<tr>
+									<td>Python</td>
+									<td id="cs2">2</td>
+								</tr>
+								<tr>
+									<td>Assembly Language</td>
+									<td id="cs3">3</td>
+								</tr>
+								<tr>
+									<td>HTML+CSS</td>
+									<td id="cs4">4</td>
+								</tr>
+								<tr>
+									<td>JavaScript</td>
+									<td id="cs5">5</td>
+								</tr>
+								<tr>
+									<td>SQL</td>
+									<td id="cs6">6</td>
+								</tr>
+							</table>
 						</td>
 						<td>
 							<img src='./images/coding-photo1.avif' class='table-image'>
@@ -112,7 +139,7 @@
 			</div>
 
 			<!--Cybersecurity Skills Section-->
-			<button onclick="expand('cybersecurity')" class='block white-background black-text'>Cybersecurity Skills</button>
+			<button onclick="expand('cybersecurity')" class='block white-background black-text center'>Cybersecurity Skills</button>
 			<div id='cybersecurity' class='indent hide'>
 				<table class='centered-table'>
 					<tr>
@@ -137,44 +164,50 @@
 							Wireshark
 						</td>
 					</tr>
-							<!--<ul class='skill-lists'>
-								<li>Darktrace</li>
-								<li>Antigena</li>
-								<li>Arcsight</li>
-								<li>Falcon Crowdstrike</li>
-								<li>Azure Active Directory</li>
-								<li>Wireshark</li>
-								<li>Cisco products
-									<ul>
-										<li>Gateway</li>
-										<li>Prime</li>
-										<li>DNA</li>
-										<li>Stealthwatch</li>
-									</ul>
-								</li>
-							</ul>
-						</td>
-					</tr>-->
 				</table>
 			</div>
 
 			<!--Soft Skills Section-->
-			<button onclick="expand('soft')" class='block white-background black-text'>Soft Skills</button>
+			<button onclick="expand('soft')" class='block white-background black-text center'>Soft Skills</button>
 			<div id='soft' class='indent hide'>
 				<table class='centered-table'>
 					<tr>
 						<td class='skills-div'>
 							Proficient in:
-							<ul class='skill-lists'>
-								<li>Java</li>
-								<li>C++</li>
-								<li>Python</li>
-								<li>Assembly Language</li>
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>JavaScript</li>
-								<li>SQL</li>
-							</ul>
+							<table>
+								<tr>
+									<th>Language</th>
+									<th>Years</th>
+								</tr>
+								<tr>
+									<td>Java</td>
+									<td id="cs0">0</td>
+								</tr>
+								<tr>
+									<td>C++</td>
+									<td id="cs1">1</td>
+								</tr>
+								<tr>
+									<td>Python</td>
+									<td id="cs2">2</td>
+								</tr>
+								<tr>
+									<td>Assembly Language</td>
+									<td id="cs3">3</td>
+								</tr>
+								<tr>
+									<td>HTML+CSS</td>
+									<td id="cs4">4</td>
+								</tr>
+								<tr>
+									<td>JavaScript</td>
+									<td id="cs5">5</td>
+								</tr>
+								<tr>
+									<td>SQL</td>
+									<td id="cs6">6</td>
+								</tr>
+							</table>
 						</td>
 					</tr>
 				</table>
@@ -182,7 +215,9 @@
 		</div>
 		
 		<!--Work Experience Section-->
-		<button onclick="expand('experience')" class='block w3-round-xxlarge'>Work Experience</button>
+		<button onclick="expand('experience')" class='block w3-round-xxlarge bigger-font'>
+			<div id='experienceButton'>Work Experience</div>
+		</button>
 		<div id='experience' class='hide'>
 			<div class='blackbox'>
 			<!--Slideshow of work experience-->
@@ -268,7 +303,7 @@
 						<ul class='slides-list'>
 							<li>Tutor 11 hours per week to help students comprehend a variety of subjects</li>
 							<li>Monitored tutoree progress and communicated this with the course professors</li>
-							<li>Topics tutored: Java, Python, Assembly Language, Data Structures, Algorithms, Discrete Math, Operating Systems, and Web-Based Systems</li>
+							<li>Topics tutored: Java, Python, Assembly Language, Data Structures, Algorithms, Discret 	e Math, Operating Systems, and Web-Based Systems</li>
 						</ul>
 					</p>
 				</div>
@@ -317,56 +352,70 @@
 				<span class="dot" onclick="currentSlide(4)"></span>
 			</div>
 			<script>
-			var slideIndex = 1;
-			showSlides(slideIndex);
-			slideIndex++;
-			setInterval(function() {
+				var slideIndex = 1;
 				showSlides(slideIndex);
 				slideIndex++;
-			}, 5000);
-			function plusSlides(n) {
-			  showSlides(slideIndex += n);
-			}
+				setInterval(function() {
+					showSlides(slideIndex);
+					slideIndex++;
+				}, 5000);
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
 
-			function currentSlide(n) {
-			  showSlides(slideIndex = n);
-			}
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
 
-			function showSlides(n) {
-			  var i;
-			  var slides = document.getElementsByClassName("slides");
-			  var dots = document.getElementsByClassName("dot");
-			  if (n > slides.length) {
-			  	slideIndex = 1
-			  }
-			  if (n < 1) {
-			  	slideIndex = slides.length
-			  }
-			  for (i = 0; i < slides.length; i++) {
-			    slides[i].style.display = "none";
-			  }
-			  for (i = 0; i < dots.length; i++) {
-			    dots[i].className = dots[i].className.replace(" active", "");
-			  }
-			  slides[slideIndex-1].style.display = "block";
-			  dots[slideIndex-1].className += " active";
-			}
+				function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("slides");
+				  var dots = document.getElementsByClassName("dot");
+				  if (n > slides.length) {
+				  	slideIndex = 1
+				  }
+				  if (n < 1) {
+				  	slideIndex = slides.length
+				  }
+				  for (i = 0; i < slides.length; i++) {
+				    slides[i].style.display = "none";
+				  }
+				  for (i = 0; i < dots.length; i++) {
+				    dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";
+				  dots[slideIndex-1].className += " active";
+				}
+
+				function updateCS() {
+					const years = [2015, 2019, 2018, 2019, 2019, 2019, 2020];
+					let year = new Date().getFullYear();
+					for (let i = 0; i < years.length; i++) {
+						years[i] = year - years[i];
+					}
+					for (let i = 0; i < years.length; i++) {
+						var el = document.getElementById("cs" + i);
+						el.innerHTML = years[i];
+					}
+				}
+				function expand(id) {
+				  var x = document.getElementById(id);
+				  if (x.className.indexOf("show") == -1) {
+				    x.className += " show";
+				  } else { 
+				    x.className = x.className.replace(" show", "");
+				  }
+				  x = document.getElementById(id + "Button");
+				  if (x.className.indexOf("shiftLeft") == -1) {
+				  	x.className = x.className.replace(" shiftRight", "");
+				    x.className += " shiftLeft";
+				  } else { 
+				    x.className = x.className.replace(" shiftLeft", "");
+				    x.className += " shiftRight";
+				  }
+				}
 		</script>
-		</p>
 		</div>
-
-
-
-		<script>
-			function expand(id) {
-			  var x = document.getElementById(id);
-			  if (x.className.indexOf("show") == -1) {
-			    x.className += " show";
-			  } else { 
-			    x.className = x.className.replace(" show", "");
-			  }
-			}
-		</script>
 	</body>
 	<footer>
 			<p>
