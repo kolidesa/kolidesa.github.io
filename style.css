@@ -539,12 +539,16 @@ hr {
 	color: white;
 	font-size: 20px;
 	background-color: black;
-	display:block;
+	display: block;
 	width:95%;
 	height: 75px;
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 }
+
+/*.origin {
+	transform-origin: top left;
+}*/
 
 .shiftLeft {
 	transform: translateX(-40%);
@@ -552,6 +556,6 @@ hr {
 }
 
 .shiftRight {
-	transform: translateX(0%);
+	transform: translateX(0);
     transition: transform 0.8s ease-in-out;
 }
