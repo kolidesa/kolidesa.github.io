@@ -1,7 +1,7 @@
 html {
 	color: black;
 	background-color: lightgray;
-	font-size: 20px;
+	font-size: 20px !important;
 }
 
 .bigger-font {
@@ -17,7 +17,6 @@ html {
 
 footer {
 	bottom: 0;
-	/*position: relative;*/
 	padding-bottom: 10px;
 	display: flex;
 	width: 100%;
@@ -29,6 +28,8 @@ footer {
 .centered-table {
 	margin-left: auto;
 	margin-right: auto;
+	width: auto;
+	border: 1px solid;
 }
 
 .font-increase {
@@ -303,11 +304,12 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  height: 350px;
+  height: 500px;
 }
 
 /* Slides */
 .slides {
+	width: 100%;
 	color: white;
   	display: none;
   	text-align: center;
@@ -431,6 +433,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	vertical-align: text-top;
 }
 
+.skills-div-bigger {
+ 	flex: 2 100%;
+	vertical-align: middle;
+}
+
 hr {
 	height: 10px;
 	border-width: 5px;
@@ -479,6 +486,15 @@ hr {
 	margin-right: auto;
 	display: block;
 	width: 50%;
+	height: auto;
+	object-fit: contain;
+}
+
+.bigger-table-image {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 75%;
 	height: auto;
 	object-fit: contain;
 }
