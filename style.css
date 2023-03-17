@@ -546,16 +546,14 @@ hr {
 	margin-right: 2.5%;
 }
 
-/*.origin {
-	transform-origin: top left;
-}*/
-
 .shiftLeft {
-	transform: translateX(-40%);
-    transition: transform 0.8s ease-in-out;
+	white-space: nowrap;
+	width: 0;
+    transition: width 0.8s ease-out;/*in-out;*/
 }
 
 .shiftRight {
-	transform: translateX(0);
-    transition: transform 0.8s ease-in-out;
+	white-space: nowrap;
+	width: 100%;
+    transition: width 0.8s ease-out; /*in-out;*/
 }
