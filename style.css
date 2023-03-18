@@ -548,6 +548,16 @@ hr {
 		margin-right: 5%;
 }
 
+#cs {
+	background-image: url('./images/matrix-code.avif');
+	background-size: cover;
+	color: white;
+}
+
+#general {
+	padding: 25px;
+}
+
 .block {
 	color: white;
 	font-size: 20px;

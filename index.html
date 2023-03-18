@@ -5,7 +5,7 @@
 		<link rel="shortcut icon" href='./images/favicon.ico'>
 		<link rel="stylesheet" href="style.css">
 	</head>
-	<body>
+	<body onload='copyrightDate()'>
 
 		<!--Header-->
 		<div class="w3-top">
@@ -30,7 +30,7 @@
 			<br>
 			I'm a current Grad student studying Computer Science at Duquesne University. I have 9 years of coding experience in a variety of programming languages. Take a look at the "About me" section to see a full list. I have an interest in software and web development, as well as cybersecurity.
 			<br>
-			I'm actively seeking a job in the field of software development or engineering, as well as cybersecurity. 
+			I'm currently seeking a job.
 			<br>
 			Thank you for taking the time to visit my website, and I look forward to connecting with you.
 			</p>
@@ -54,8 +54,13 @@
 					</th>
 				</tr>
 			</table>
-			<p>&copy; 2023</p>
+			<p id='copyrightYear'></p>
 		</footer>
-
+		<script>
+			function copyrightDate() {
+				let year = new Date().getFullYear();
+				document.getElementById("copyrightYear").innerHTML = '&copy; ' + year;
+			}
+		</script>
 	</body>
 </html>
