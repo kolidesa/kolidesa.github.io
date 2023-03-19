@@ -9,7 +9,7 @@
 
 		<!--Header-->
 		<div class="w3-top">
-		  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+		  <div class="w3-bar w3-wide w3-padding w3-card ">
 		    <a href="index.html" class="w3-bar-item w3-button"><b>Adam Kolides</b></a>
 		    <!-- Float links to the right. Hide them on small screens -->
 		    <div class="w3-right w3-hide-small">
@@ -25,7 +25,7 @@
 		<br>
 		<h1 class='indent w3-animate-left'>About me</h1>
 
-		<button onclick="expand('general')" class='block w3-round-xxlarge indent bigger-font'>
+		<button onclick="expand('general')" class='block w3-round-xxlarge indent bigger-font white-background'>
 			<div id='generalButton' class='typewriter-font shiftRight'>General</div>
 		</button>
 		
@@ -35,7 +35,7 @@
 			</p>
 		</div>
 
-		<button onclick="expand('education')" class='block w3-round-xxlarge bigger-font'>
+		<button onclick="expand('education')" class='block w3-round-xxlarge bigger-font white-background'>
 			<div id='educationButton' class=' shiftRight'>Education</div>
 		</button>
 		<div id='education' class='indent hide'>
@@ -65,7 +65,7 @@
 		</div>
 		
 		<!--Skills Section-->
-		<button onclick="expand('skills')" class='block w3-round-xxlarge bigger-font center'>
+		<button onclick="expand('skills')" class='block w3-round-xxlarge bigger-font center white-background'>
 			<div id='skillsButton' class=' shiftRight'>Skills</div>
 		</button>
 		<div id='skills' class='indent hide'>
@@ -73,11 +73,11 @@
 			<!--Computer Science Skills Section-->
 			<button onclick="expand('cs')" class='block white-background black-text center'>Computer Science Skills</button>
 			<div id='cs' class='indent hide'>
-				<table class='centered-table'>	
-					<tr>
+				<table class='centered-table center-td'>	
+					<tr class='center'>
 						<td class='skills-div'>
 							<!--Proficient in:-->
-							<table class='center border font-increase'>
+							<table class='center border font-increase white-background opacity'>
 								<tr>
 									<th class='left-align'>Languages</th>
 									<th>Years Experience</th>
@@ -112,24 +112,37 @@
 								</tr>
 							</table>
 						</td>
-						<td>
+						<!--<td>
 							<img src='./images/coding-photo1.avif' alt='photo of code' class='bigger-table-image'>
-						</td>
+						</td>-->
 						<td class='skills-div'>
-							Experience with:
-							<ul class='skill-lists'>
-								<li>Data Structures</li>
-								<li>Algorithms</li>
-								<li>Computer Networks</li>
-								<li>Computer Security</li>
-								<li>Database management</li>
-								<li>Linux</li>
-								<li>Artificial Intelligence</li>
-								<li>Machine Learning</li>
-								<li>Git</li>
-								<li>JUnit Testing</li>
-								<li>Selenium Drivers</li>
-							</ul>
+							<table class='center vert-center border font-increase white-background opacity'>
+								<tr>
+									<td class='center' colspan="2">
+										Experience with:
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<ul class='skill-lists'>
+											<li>Data Structures</li>
+											<li>Algorithms</li>
+											<li>Computer Networks</li>
+											<li>Computer Security</li>
+											<li>Database management</li>
+										</ul>
+									</td>
+									<td>
+										<ul class='skill-lists'>
+											<li>Linux</li>
+											<li>Artificial Intelligence</li>
+											<li>Machine Learning</li>
+											<li>Git</li>
+											<li>JUnit Testing</li>
+										</ul>
+									</td>
+								</tr>
+							</table>
 						</td>
 					</tr>
 				</table>
@@ -178,13 +191,13 @@
 		</div>
 		
 		<!--Work Experience Section-->
-		<button onclick="expand('experience')" class='block w3-round-xxlarge bigger-font'>
+		<button onclick="expand('experience')" class='block w3-round-xxlarge bigger-font white-background'>
 			<div id='experienceButton' class=' shiftRight'>Work Experience</div>
 		</button>
 		<div id='experience' class='hide'>
 			<div class='blackbox'>
 			<!--Slideshow of work experience-->
-			<div class='slideshow-container black-background'>
+			<div class='slideshow-container white-background'>
 				<div class='slides white-text'>
 					<h1>Privacy and Security Intern</h1>
 					<table class='slide-table'>
@@ -301,7 +314,7 @@
 		</div>
 
 			<!-- Dots/bullets/indicators -->
-			<div class="dot-container black-background">
+			<div class="dot-container white-background">
 				<span class="dot" onclick="currentSlide(1)"></span>
 				<span class="dot" onclick="currentSlide(2)"></span>
 				<span class="dot" onclick="currentSlide(3)"></span>
