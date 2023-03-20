@@ -622,6 +622,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	padding-right: 35px;
 }
 
+
+/*Cybersecurity skill tab buttons*/
 .cybersecurity-button {
 	position: absolute;
 	width: 100px;
@@ -648,7 +650,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 #cyberbutton2 {
-	left: 14%;
+	left: 15%;
 	top: 25%;
 	height: 35px;
 	width: 35px;
@@ -658,7 +660,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 #cyberbutton2:hover {
-	left: 14%;
+	left: 15%;
 	top: 25%;
 	height: 50px;
 	width: 175px;
@@ -667,7 +669,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 #cyberbutton3 {
-	left: 14%;
+	left: 15%;
 	top: 75%;
 	height: 35px;
 	width: 35px;
@@ -677,7 +679,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 #cyberbutton3:hover {
-	left: 14%;
+	left: 15%;
 	top: 75%;
 	height: 50px;
 	width: 175px;
@@ -686,8 +688,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 #cyberbutton4 {
-	left: 610px;
-	top: 175px;
+	left: 48%;
+	top: 25%;
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
@@ -696,17 +698,17 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 #cyberbutton4:hover {
-	left: 610px;
-	top: 175px;
-	height: 50px;
-	width: 175px;
+	left: 48%;
+	top: 25%;
+	height: 100px;
+	width: 350px;
 	border-radius: 2px;
 	font-size: 30px;
 }
 
 #cyberbutton5 {
-	left: 900px;
-	top: 150px;
+	left: 80%;
+	top: 25%;
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
@@ -715,8 +717,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 #cyberbutton5:hover {
-	left: 900px;
-	top: 150px;
+	left: 80%;
+	top: 25%;
 	height: 50px;
 	width: 175px;
 	border-radius: 2px;
@@ -724,8 +726,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 #cyberbutton6 {
-	left: 1000px;
-	top: 100px;
+	left: 65%;
+	top: 50%;
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
@@ -734,16 +736,17 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 #cyberbutton6:hover {
-	left: 700px;
-	top: 100px;
+	left: 65%;
+	top: 50%;
 	height: 50px;
-	width: 175px;
+	width: 350px;
 	border-radius: 2px;
 	font-size: 30px;
 }
 
 #cyberbutton7 {
-	left: 900px;
+	left: 80%;
+	top: 75%;
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
@@ -752,9 +755,10 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 #cyberbutton7:hover {
-	left: 900px;
+	left: 80%;
+	top: 75%;
 	height: 50px;
-	width: 175px;
+	width: 350px;
 	border-radius: 2px;
 	font-size: 30px;
 }
@@ -762,11 +766,3 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #cybersecurity {
 	position: relative;
 }
-
-/*#cybersecurity {
-	background-image: url("./images/cybersecurity1.png");
-	background-size: contain !important;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 500px;
-}*/
