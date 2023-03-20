@@ -445,7 +445,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 .skills-div {
 	width: 25%;
-	vertical-align: text-top;
+	padding-top: 4%;
+	vertical-align: middle;
 	margin-left: auto;
 	margin-right: auto;
 	height: 30%;
@@ -490,6 +491,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	width: auto;
 	height: auto;
 	object-fit: cover;
+}
+
+.smallerTable {
+	/*width: 75%;*/
+	border-collapse: collapse;
 }
 
 .contact-logo {
@@ -615,3 +621,152 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	padding-left: 35px;
 	padding-right: 35px;
 }
+
+.cybersecurity-button {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+}
+
+#cyberbutton1 {
+	left: 28%;
+	top: 50%;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	background-color: gold;
+	font-size: 0;
+}
+
+#cyberbutton1:hover {
+	left: 28%;
+	top: 50%;
+	height: 50px;
+	width: 175px;
+	border-radius: 2px;
+	font-size: 30px;
+}
+
+#cyberbutton2 {
+	left: 14%;
+	top: 25%;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	background-color: gold;
+	font-size: 0;
+}
+
+#cyberbutton2:hover {
+	left: 14%;
+	top: 25%;
+	height: 50px;
+	width: 175px;
+	border-radius: 2px;
+	font-size: 30px;
+}
+
+#cyberbutton3 {
+	left: 14%;
+	top: 75%;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	background-color: gold;
+	font-size: 0;
+}
+
+#cyberbutton3:hover {
+	left: 14%;
+	top: 75%;
+	height: 50px;
+	width: 175px;
+	border-radius: 2px;
+	font-size: 30px;
+}
+
+#cyberbutton4 {
+	left: 610px;
+	top: 175px;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	background-color: gold;
+	font-size: 0;
+}
+
+#cyberbutton4:hover {
+	left: 610px;
+	top: 175px;
+	height: 50px;
+	width: 175px;
+	border-radius: 2px;
+	font-size: 30px;
+}
+
+#cyberbutton5 {
+	left: 900px;
+	top: 150px;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	background-color: gold;
+	font-size: 0;
+}
+
+#cyberbutton5:hover {
+	left: 900px;
+	top: 150px;
+	height: 50px;
+	width: 175px;
+	border-radius: 2px;
+	font-size: 30px;
+}
+
+#cyberbutton6 {
+	left: 1000px;
+	top: 100px;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	background-color: gold;
+	font-size: 0;
+}
+
+#cyberbutton6:hover {
+	left: 700px;
+	top: 100px;
+	height: 50px;
+	width: 175px;
+	border-radius: 2px;
+	font-size: 30px;
+}
+
+#cyberbutton7 {
+	left: 900px;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	background-color: gold;
+	font-size: 0;
+}
+
+#cyberbutton7:hover {
+	left: 900px;
+	height: 50px;
+	width: 175px;
+	border-radius: 2px;
+	font-size: 30px;
+}
+
+#cybersecurity {
+	position: relative;
+}
+
+/*#cybersecurity {
+	background-image: url("./images/cybersecurity1.png");
+	background-size: contain !important;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}*/
