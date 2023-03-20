@@ -23,9 +23,9 @@
 		<br>
 		<br>
 		<br>
-		<h1 class='indent w3-animate-left'>About me</h1>
+		<h1 class='indent w3-animate-left font'>About me</h1>
 
-		<button onclick="expand('general')" class='block w3-round-xxlarge indent bigger-font white-background'>
+		<button onclick="expand('general')" class='padded block w3-round-xxlarge indent bigger-font white-background'>
 			<div id='generalButton' class='typewriter-font shiftRight'>General</div>
 		</button>
 		
@@ -35,7 +35,7 @@
 			</p>
 		</div>
 
-		<button onclick="expand('education')" class='block w3-round-xxlarge bigger-font white-background'>
+		<button onclick="expand('education')" class='padded block w3-round-xxlarge bigger-font white-background'>
 			<div id='educationButton' class=' shiftRight'>Education</div>
 		</button>
 		<div id='education' class='indent hide'>
@@ -65,58 +65,55 @@
 		</div>
 		
 		<!--Skills Section-->
-		<button onclick="expand('skills')" class='block w3-round-xxlarge bigger-font center white-background'>
+		<button onclick="expand('skills')" class='padded block w3-round-xxlarge bigger-font center white-background'>
 			<div id='skillsButton' class=' shiftRight'>Skills</div>
 		</button>
 		<div id='skills' class='indent hide'>
 
 			<!--Computer Science Skills Section-->
-			<button onclick="expand('cs')" class='block white-background black-text center'>Computer Science Skills</button>
+			<button onclick="expand('cs')" class='block black-background white-text center bigger-font'>Computer Science Skills</button>
 			<div id='cs' class='indent hide'>
 				<table class='centered-table center-td'>	
 					<tr class='center'>
 						<td class='skills-div'>
 							<!--Proficient in:-->
-							<table class='center border font-increase white-background opacity'>
+							<table class='centered-table verticalCentered border font-increase white-background opacity'>
 								<tr>
 									<th class='left-align'>Languages</th>
 									<th>Years Experience</th>
 								</tr>
 								<tr class='border'>
 									<td class='left-align'>Java</td>
-									<td id="cs0">0</td>
-								</tr>
-								<tr>
-									<td class='left-align'>C++</td>
-									<td id="cs1">1</td>
+									<td id="cs0" class='right-align'>0</td>
 								</tr>
 								<tr>
 									<td class='left-align'>Python</td>
-									<td id="cs2">2</td>
+									<td id="cs2" class='right-align'>2</td>
 								</tr>
 								<tr>
 									<td class='left-align'>Assembly Language</td>
-									<td id="cs3">3</td>
+									<td id="cs3" class='right-align'>3</td>
+								</tr>
+								<tr>
+									<td class='left-align'>C++</td>
+									<td id="cs1" class='right-align'>1</td>
 								</tr>
 								<tr>
 									<td class='left-align'>HTML & CSS</td>
-									<td id="cs4">4</td>
+									<td id="cs4" class='right-align'>4</td>
 								</tr>
 								<tr>
 									<td class='left-align'>JavaScript</td>
-									<td id="cs5">5</td>
+									<td id="cs5" class='right-align'>5</td>
 								</tr>
 								<tr>
 									<td class='left-align'>SQL</td>
-									<td id="cs6">6</td>
+									<td id="cs6" class='right-align'>6</td>
 								</tr>
 							</table>
 						</td>
-						<!--<td>
-							<img src='./images/coding-photo1.avif' alt='photo of code' class='bigger-table-image'>
-						</td>-->
 						<td class='skills-div'>
-							<table class='center vert-center border font-increase white-background opacity'>
+							<table class='centered-table verticalCentered border font-increase white-background opacity'>
 								<tr>
 									<td class='center' colspan="2">
 										Experience with:
@@ -149,7 +146,7 @@
 			</div>
 
 			<!--Cybersecurity Skills Section-->
-			<button onclick="expand('cybersecurity')" class='block white-background black-text center'>Cybersecurity Skills</button>
+			<button onclick="expand('cybersecurity')" class='block black-background white-text center bigger-font'>Cybersecurity Skills</button>
 			<div id='cybersecurity' class='indent hide'>
 				<table class='centered-table'>
 					<tr>
@@ -182,16 +179,15 @@
 				</table>
 			</div>
 
-			<!--Do I want/need this section?-->
 			<!--Soft Skills Section-->
-			<button onclick="expand('soft')" class='block white-background black-text center'>Soft Skills</button>
+			<button onclick="expand('soft')" class='block black-background white-text center bigger-font'>Soft Skills</button>
 			<div id='soft' class='indent hide center'>
 				<p>Something here like good communication, teamwork, detail oriented. Project leadership, tutoring, TAing, etc.</p>
 			</div>
 		</div>
 		
 		<!--Work Experience Section-->
-		<button onclick="expand('experience')" class='block w3-round-xxlarge bigger-font white-background'>
+		<button onclick="expand('experience')" class='padded block w3-round-xxlarge bigger-font white-background'>
 			<div id='experienceButton' class=' shiftRight'>Work Experience</div>
 		</button>
 		<div id='experience' class='hide'>

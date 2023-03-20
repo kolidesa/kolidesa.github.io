@@ -6,12 +6,20 @@ html {
 	font-family: FreeMono !important;
 }
 
+.font {
+	font-family: FreeMono !important;
+}
+
 div .w3-bar {
 	background-color: #3AAFA9;
 }
 
 .bigger-font {
 	font-size: 30px !important;
+}
+
+.backgroundcolor {
+	background-color: #17252A !important;
 }
 
 .banner {
@@ -53,7 +61,7 @@ footer {
 }
 
 .verticalCentered {
-	vertical-align: top;
+	vertical-align: middle;
 }
 
 .right {
@@ -403,6 +411,10 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	list-style-position: inside;
 }
 
+.right-align {
+	text-align: right !important;
+}
+
 .center {
 	text-align: center;
 }
@@ -533,7 +545,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 .black-background {
-	background-color: black !important;
+	background-color: #17252A !important;
 }
 
 .square {
@@ -565,7 +577,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 .opacity {
-	opacity: .75;
+	opacity: .85;
 }
 
 #general {
@@ -598,3 +610,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	text-align: center !important;
 }
 
+.padded {
+	padding-top: 10px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
