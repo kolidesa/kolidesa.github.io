@@ -371,10 +371,13 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 .intro {
 	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	/*
 	font-size: 20px;
 	text-align: left;
 	padding: 20px;
-	float: left;
+	float: left;*/
 }
 
 .no-space {
@@ -392,11 +395,17 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 /*Images*/
 .circular_image {
-	width: 400px;
-  	height: 400px;
+	width: 20em;
+  	height: 20em;
   	border-radius: 50%;
   	object-fit: cover;
   	border: 5px solid #DEF2F1;
+}
+
+.center-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .logo {
@@ -406,7 +415,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 .smallerTable {
-	/*width: 75%;*/
 	border-collapse: collapse;
 }
 
