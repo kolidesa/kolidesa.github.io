@@ -494,6 +494,10 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	margin-right: 5%;
 }
 
+.bigger-width {
+	width: 25em;
+}
+
 #cs {
 	/*background-image: url('./images/matrix-code.avif');*/
 	background-image: url('./images/coding-photo1.avif');
@@ -546,15 +550,13 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 /*Cybersecurity skill tab buttons*/
 .cybersecurity-button {
 	position: absolute;
-	width: 100px;
-	height: 50px;
+	width: 2.5%;
+	height: 5%;
 }
 
 #cyberbutton1 {
 	left: 28%;
 	top: 50%;
-	height: 35px;
-	width: 35px;
 	border-radius: 50%;
 	background-color: gold;
 	font-size: 0;
@@ -563,8 +565,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #cyberbutton1:hover {
 	left: 28%;
 	top: 50%;
-	height: 50px;
-	width: 175px;
+	height: 7%;
+	width: 15%;
 	border-radius: 2px;
 	font-size: 30px;
 }
@@ -572,8 +574,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #cyberbutton2 {
 	left: 15%;
 	top: 25%;
-	height: 35px;
-	width: 35px;
 	border-radius: 50%;
 	background-color: gold;
 	font-size: 0;
@@ -582,8 +582,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #cyberbutton2:hover {
 	left: 15%;
 	top: 25%;
-	height: 50px;
-	width: 175px;
+	height: 7%;
+	width: 15%;
 	border-radius: 2px;
 	font-size: 30px;
 }
@@ -591,8 +591,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #cyberbutton3 {
 	left: 15%;
 	top: 75%;
-	height: 35px;
-	width: 35px;
 	border-radius: 50%;
 	background-color: gold;
 	font-size: 0;
@@ -601,8 +599,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #cyberbutton3:hover {
 	left: 15%;
 	top: 75%;
-	height: 50px;
-	width: 175px;
+	height: 7%;
+	width: 15%;
 	border-radius: 2px;
 	font-size: 30px;
 }
@@ -610,8 +608,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #cyberbutton4 {
 	left: 48%;
 	top: 30%;
-	height: 35px;
-	width: 35px;
 	border-radius: 50%;
 	background-color: gold;
 	font-size: 0;
@@ -620,8 +616,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #cyberbutton4:hover {
 	left: 48%;
 	top: 30%;
-	height: 100px;
-	width: 350px;
+	height: 14%;
+	width: 25%;
 	border-radius: 2px;
 	font-size: 30px;
 }
@@ -629,8 +625,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #cyberbutton5 {
 	left: 80%;
 	top: 25%;
-	height: 35px;
-	width: 35px;
 	border-radius: 50%;
 	background-color: gold;
 	font-size: 0;
@@ -639,8 +633,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #cyberbutton5:hover {
 	left: 80%;
 	top: 25%;
-	height: 50px;
-	width: 175px;
+	height: 7%;
+	width: 15%;
 	border-radius: 2px;
 	font-size: 30px;
 }
@@ -648,8 +642,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #cyberbutton6 {
 	left: 65%;
 	top: 50%;
-	height: 35px;
-	width: 35px;
 	border-radius: 50%;
 	background-color: gold;
 	font-size: 0;
@@ -658,8 +650,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #cyberbutton6:hover {
 	left: 65%;
 	top: 50%;
-	height: 50px;
-	width: 350px;
+	height: 2em;
+	width: 25%;
 	border-radius: 2px;
 	font-size: 30px;
 }
@@ -667,8 +659,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #cyberbutton7 {
 	left: 80%;
 	top: 75%;
-	height: 35px;
-	width: 35px;
 	border-radius: 50%;
 	background-color: gold;
 	font-size: 0;
@@ -677,8 +667,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #cyberbutton7:hover {
 	left: 80%;
 	top: 75%;
-	height: 50px;
-	width: 350px;
+	height: 2em;
+	width: 20%;
 	border-radius: 2px;
 	font-size: 30px;
 }
