@@ -117,47 +117,6 @@
 			<span class="dot" onclick="currentSlide(4)"></span>
 			<span class="dot" onclick="currentSlide(5)"></span>
 		</div>
-		<script>
-			var slideIndex = 1;
-			showSlides(slideIndex);
-			slideIndex++;
-			setInterval(function() {
-				showSlides(slideIndex);
-				slideIndex++;
-			}, 5000);
-
-			function plusSlides(n) {
-			  showSlides(slideIndex += n);
-			}
-
-			function currentSlide(n) {
-			  showSlides(slideIndex = n);
-			}
-
-			function showSlides(n) {
-			  var i;
-			  var slides = document.getElementsByClassName("slides");
-			  var dots = document.getElementsByClassName("dot");
-			  if (n > slides.length) {
-			  	slideIndex = 1
-			  }
-			  if (n < 1) {
-			  	slideIndex = slides.length
-			  }
-			  for (i = 0; i < slides.length; i++) {
-			    slides[i].style.display = "none";
-			  }
-			  for (i = 0; i < dots.length; i++) {
-			    dots[i].className = dots[i].className.replace(" active", "");
-			  }
-			  slides[slideIndex-1].style.display = "block";
-			  dots[slideIndex-1].className += " active";
-			}
-			function copyrightDate() {
-					let year = new Date().getFullYear();
-					document.getElementById("copyrightYear").innerHTML = '&copy; ' + year;
-			}
-		</script>
 		<footer>
 			<table class='centered-table'>
 				<tr>
@@ -174,5 +133,6 @@
 			</table>
 			<p id='copyrightYear'></p>
 		</footer>
+		<script src="script.js"></script>
 	</body>
 </html>
