@@ -1,6 +1,7 @@
 function copyrightDate() {
 	let year = new Date().getFullYear();
 	document.getElementById("copyrightYear").innerHTML = '&copy; ' + year;
+	updateCS(year);
 }
 
 var slideIndex = 1;
