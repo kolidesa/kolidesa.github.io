@@ -29,49 +29,20 @@ div .w3-bar {
 	object-fit: cover;
 }
 
-@media only screen and (max-width: 600px){
+.hambuger-container, input {
+	display: none;
+}
+
+@media (max-width: 600px){
 	.banner {
 		width: 100%;
 		height: 10em;
 		object-position: 0em 1em;
 		object-fit: cover;
 	}
-	.hamburger-lines {
-		display: block;
-		height: 23px;
-	    width: 35px;
-	    position: absolute;
-	    top: 1em;
-	    /*left: 20px;*/
-	    right: 1em;
-	    z-index: 2;
-	    display: flex;
-	    flex-direction: column;
-	    justify-content: space-between;
-	}
-
-	.hamburger-lines .line {
-	    display: block;
-	    height: 4px;
-	    width: 100%;
-	    border-radius: 10px;
-	    background: #333;
-	}
-
-  .hamburger-lines .line1 {
-    transform-origin: 0% 0%;
-    transition: transform 0.4s ease-in-out;
-  }
-
-  .hamburger-lines .line2 {
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .hamburger-lines .line3 {
-    transform-origin: 0% 100%;
-    transition: transform 0.4s ease-in-out;
-  }
- 	.menu-items {
+	
+	
+ /*.menu-items {
     padding-top: 100px;
     background: #fff;
     height: 100vh;
@@ -83,7 +54,11 @@ div .w3-bar {
     padding-left: 50px;
     transition: transform 0.5s ease-in-out;
     box-shadow: 5px 0px 10px 0px #aaa;
-  }
+  }*/
+.hambuger-container {
+	float:right;
+	display: block;
+}
 
 }
 
