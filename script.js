@@ -68,11 +68,18 @@ function expand(id) {
 	}
 }
 
-function hamburgerMenu() {
-  var x = document.getElementById("menuOptions");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
+function toggleActive() {
+	var x = document.getElementById("hamburger");
+  if (x.className.indexOf("is-active") == -1) {
+		x.className += " is-active";
+	} else { 
+		x.className = x.className.replace(" is-active", "");
+	}
+	var x = document.getElementById("menuOptions");
+  if (x.className.indexOf("show") == -1) {
+		x.className += " show";
+	} else { 
+		x.className = x.className.replace(" show", "");
+		x.clasName += " hide";
+	}
 }
