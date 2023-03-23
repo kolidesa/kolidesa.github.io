@@ -24,8 +24,8 @@ div .w3-bar {
 
 .banner {
 	width: 100%;
-	height: 400px;
-	object-position: 0px -237px;
+	height: 25em;
+	object-position: 0em -12em;
 	object-fit: cover;
 }
 
@@ -51,7 +51,7 @@ footer {
 
 .table-center {
 	width: auto;
-	height: 200px;
+	height: 10em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -229,7 +229,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  height: 500px;
+  height: 25em;/*500px;*/
 }
 
 /* Slides */
@@ -250,7 +250,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   padding: 16px;
   color: #888;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5em;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
@@ -373,11 +373,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
-	/*
-	font-size: 20px;
-	text-align: left;
-	padding: 20px;
-	float: left;*/
 }
 
 .no-space {
@@ -403,7 +398,6 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 .center-image {
-	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -419,8 +413,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 .contact-logo {
-	width: 200px;
-	height: 100px;
+	width: 10em;
+	height: 5em;
 	object-fit: contain;
 }
 
@@ -499,11 +493,10 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 
 #cs {
-	/*background-image: url('./images/matrix-code.avif');*/
 	background-image: url('./images/coding-photo1.avif');
 	background-size: cover;
 	color: white;
-	height: 450px;
+	height: 25em;
 }
 
 .opacity {
@@ -516,7 +509,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 .block {
 	color: white;
-	font-size: 20px;
+	font-size: 10em;
 	display: block;
 	width:95%;
 	height: 75px;
@@ -568,7 +561,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	height: 7%;
 	width: 15%;
 	border-radius: 2px;
-	font-size: 30px;
+	font-size: 1.5em;
 }
 
 #cyberbutton2 {
@@ -585,7 +578,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	height: 7%;
 	width: 15%;
 	border-radius: 2px;
-	font-size: 30px;
+	font-size: 1.5em;
 }
 
 #cyberbutton3 {
@@ -602,7 +595,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	height: 7%;
 	width: 15%;
 	border-radius: 2px;
-	font-size: 30px;
+	font-size: 1.5em;
 }
 
 #cyberbutton4 {
@@ -619,7 +612,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	height: 14%;
 	width: 25%;
 	border-radius: 2px;
-	font-size: 30px;
+	font-size: 1.5em;
 }
 
 #cyberbutton5 {
@@ -636,7 +629,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	height: 7%;
 	width: 15%;
 	border-radius: 2px;
-	font-size: 30px;
+	font-size: 1.5em;
 }
 
 #cyberbutton6 {
@@ -653,7 +646,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	height: 2em;
 	width: 25%;
 	border-radius: 2px;
-	font-size: 30px;
+	font-size: 1.5em;
 }
 
 #cyberbutton7 {
@@ -670,7 +663,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	height: 2em;
 	width: 20%;
 	border-radius: 2px;
-	font-size: 30px;
+	font-size: 1.5em;
 }
 
 #cybersecurity {
