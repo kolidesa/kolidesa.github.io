@@ -87,6 +87,33 @@
 					</td>
 				</tr>
 			</table>
+			<table class="centered-table-mobile">
+				<tr>
+					<td class='padded'>
+						Master's of Science, Computer Science
+						<br>
+						Duquesne University, <em>Pittsburgh, PA</em>
+						<br>
+						GPA: 3.60/4.0
+					</td>
+				</tr>
+				<tr>
+					<td class='padded'>
+						<img src="./images/DuquesneLogo.png" alt="Duquesne University Logo" class="logo border">
+					</td>
+				</tr>
+				<tr>
+					<td class='padded'>
+						Bachelor of Science, Computer Science
+						<br>
+						Cybersecurity Certificate, Math Minor
+						<br>
+						Duquesne University, <em>Pittsburgh, PA</em>
+						<br>
+						GPA: 3.65/4.0
+					</td>
+				</tr>
+			</table>
 		</div>
 		
 		<!--Skills Section-->
@@ -98,7 +125,7 @@
 			<!--Computer Science Skills Section-->
 			<button onclick="expand('cs')" class='block black-background white-text center bigger-font'>Computer Science Skills</button>
 			<div id='cs' class='indent hide'>
-				<table class='centered-table center-td'>	
+				<table class='mobile-hide centered-table center-td'>	
 					<tr class='center'>
 						<td class='skills-div'>
 							<table class='centered-table verticalCentered border font-increase white-background opacity'>
@@ -167,21 +194,105 @@
 						</td>
 					</tr>
 				</table>
+
+				<table class='mobile-table'>
+					<tr class='center'>
+						<td class='skills-div'>
+							<table class='centered-table-mobile white-background opacity'>
+								<tr>
+									<th class='left-align'>Languages</th>
+									<th>Years</th>
+								</tr>
+								<tr class='border'>
+									<td class='left-align'>Java</td>
+									<td id="csm0" class='right-align'>0</td>
+								</tr>
+								<tr>
+									<td class='left-align'>Python</td>
+									<td id="csm2" class='right-align'>2</td>
+								</tr>
+								<tr>
+									<td class='left-align'>Assembly Language</td>
+									<td id="csm3" class='right-align'>3</td>
+								</tr>
+								<tr>
+									<td class='left-align'>C++</td>
+									<td id="csm1" class='right-align'>1</td>
+								</tr>
+								<tr>
+									<td class='left-align'>HTML & CSS</td>
+									<td id="csm4" class='right-align'>4</td>
+								</tr>
+								<tr>
+									<td class='left-align'>JavaScript</td>
+									<td id="csm5" class='right-align'>5</td>
+								</tr>
+								<tr>
+									<td class='left-align'>SQL</td>
+									<td id="csm6" class='right-align'>6</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class='skills-div'>
+							<table class='centered-table-mobile white-background opacity'>
+								<tr>
+									<td class='center' colspan="2">
+										Experience with:
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<ul class='skill-lists'>
+											<li>Data Structures</li>
+											<li>Algorithms</li>
+											<li>Computer Networks</li>
+											<li>Computer Security</li>
+											<li>Database management</li>
+										</ul>
+									</td>
+									<td>
+										<ul class='skill-lists'>
+											<li>Linux</li>
+											<li>Artificial Intelligence</li>
+											<li>Machine Learning</li>
+											<li>Git</li>
+											<li>JUnit Testing</li>
+										</ul>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
 			</div>
 
 			<!--Cybersecurity Skills Section-->
 			<button onclick="expand('cybersecurity')" class='block black-background white-text center bigger-font'>Cybersecurity Skills</button>
 			<div id='cybersecurity' class='indent hide'>
-				<p class='center black-text'>Hover over the dots to see the different skills</p>
-				<button id='cyberbutton1' class='cybersecurity-button'>Darktrace</button>
-				<button id='cyberbutton2' class='cybersecurity-button'>Antigena</button>
-				<button id='cyberbutton3' class='cybersecurity-button'>Arcsight</button>
-				<button id='cyberbutton4' class='cybersecurity-button'>Cisco Gateway, Prime, DNA, & Stealthwatch</button>
-				<button id='cyberbutton5' class='cybersecurity-button'>Wireshark</button>
-				<button id='cyberbutton6' class='cybersecurity-button'>Azure Active Directory</button>
-				<button id='cyberbutton7' class='cybersecurity-button'>Falcon Crowdstrike</button>
-				
-				<img src="./images/cybersecurity1.png" alt='Cybersecurity lock' class='centered-table bigger-table-image'>
+				<div class='mobile-hide'>
+					<p class='center black-text'>Hover over the dots to see the different skills</p>
+					<button id='cyberbutton1' class='cybersecurity-button'>Darktrace</button>
+					<button id='cyberbutton2' class='cybersecurity-button'>Antigena</button>
+					<button id='cyberbutton3' class='cybersecurity-button'>Arcsight</button>
+					<button id='cyberbutton4' class='cybersecurity-button'>Cisco Gateway, Prime, DNA, & Stealthwatch</button>
+					<button id='cyberbutton5' class='cybersecurity-button'>Wireshark</button>
+					<button id='cyberbutton6' class='cybersecurity-button'>Azure Active Directory</button>
+					<button id='cyberbutton7' class='cybersecurity-button'>Falcon Crowdstrike</button>
+					
+					<img src="./images/cybersecurity1.png" alt='Cybersecurity lock' class='centered-table bigger-table-image'>
+				</div>
+				<ul class='mobile-show'>
+					<li>Darktrace</li>
+					<li>Antigena</li>
+					<li>Arcsight</li>
+					<li>Cisco Gateway, Prime, DNA, & Stealthwatch</li>
+					<li>Wireshark</li>
+					<li>Azure Active Directory</li>
+					<li>Falcon Crowdstrike</li>
+				</ul>
+
 			</div>
 
 			<!--Soft Skills Section-->
@@ -218,6 +329,12 @@
 							</td>
 						</tr>
 					</table>
+					<ul class='mobile-show'>
+						<li>Communication&emsp;&ensp;&#x2022;Teamwork</li>
+						<li>Attention to Detail&ensp;&#x2022;Leadership</li>
+						<li>Problem-solving&emsp;&ensp;&#x2022;Adaptability</li>
+						<li>Time Management&ensp;&#x2022;Accountability</li>
+					</ul>
 				</p>
 			</div>
 		</div>

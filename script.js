@@ -46,8 +46,15 @@ function updateCS(year) {
 		years[i] = year - years[i];
 	}
 	for (let i = 0; i < years.length; i++) {
-		var el = document.getElementById("cs" + i);
-		el.innerHTML = years[i];
+		if (screen.width < 600) {
+			var el = document.getElementById("csm" + i);
+			el.innerHTML = years[i];
+		}
+		else {
+			var el = document.getElementById("cs" + i);
+			el.innerHTML = years[i];
+		}
+		
 	}
 }
 
