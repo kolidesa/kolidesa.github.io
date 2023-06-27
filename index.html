@@ -6,6 +6,7 @@
 		<link rel="stylesheet" media='screen' href="style.css">
 		<!--<link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css">-->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body class='backgroundcolor white-text' onload='copyrightDate()'>
@@ -38,49 +39,58 @@
 		    <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
 		  </div>
 		</div>
-
-
-		<img src="./images/skyline.webp" alt="Image of cityscape" class='banner'>
-		<br>
+			<div class="row">
+				<div class="col-md-12">
+					<img src="./images/skyline.png" alt="Image of cityscape" class='img-fluid lg-h-100 lg-w-100 pt-4' style='object-fit: none;'> <!--banner'>-->
+				</div>
+			</div>
 		
-		<div class='row backgroundcolor'>
-			<div class='col-lg-6 center mx-auto' style='width: 900px;'>
-				<p>Hi, my name is Adam. Welcome to my website, where I'll be sharing my skills, experiences, and projects that I've worked on. 
-					<br>
-					I have 9 years of coding experience in a variety of programming languages. Take a look at the "About me" section to see a full list. I'm interested in software design and engineering, cybersecurity, and web design (both front and back end).
-				</p>
+		<div>
+			<div class='row justify-content-center backgroundcolor pt-4'>
+				<div class='col-md-4 mt-5 mx-auto align-middle text-center' style='width: 800px;'>
+					<p>Hi, my name is Adam. Welcome to my website, where I'll be sharing my skills, experiences, and projects that I've worked on. 
+						<br/>
+						<br/>
+						I have 9 years of coding experience in a variety of programming languages. Take a look at the "About me" section to see a full list. I'm interested in software design and engineering, cybersecurity, and web design (both front and back end).
+					</p>
+				</div>
+				<div class='col-md-4 '>
+					<img src="./images/adam2.jpg" alt='Adam Kolides' class='circular_image center-image mx-auto d-block'>
+				</div>
 			</div>
-			<div class='col-6 center'>
-				<img src="./images/adam2.jpg" alt='Adam Kolides' class='circular_image center-image'>
+			<div class='row pt-4'>
+				<div class='col center'>
+					<p>Feel free to explore my website and don't hesitate to reach out if you have any questions!</p>
+				</div>
 			</div>
 		</div>
-		<div class='row'>
-			<div class='col center'>
-				<p>Feel free to explore my website and don't hesitate to reach out if you have any questions!</p>
-			</div>
-		</div>
-
 		<br>
 
 		<footer class="w-100 pb-4 flex-shrink-0">
 		    <div class="container py-4">
 	            <div class="row justify-content-center">
-					<div class="col-md-2">
-						<a class="text-white" href='https://github.com/kolidesa'>Github</a>
-					</div>
-					<div class="col-md-1">
-						<a class="text-white" href='http://www.linkedin.com/in/adam-kolides-6b0b5119b'>LinkedIn</a>
-					</div>
-					<div class="col-md-2">
-						<a class="text-white" href='contact.html'>Contact me</a>
-					</div>
+	            	<div class="col-md-2">
+	            		<a class="text-white" href='https://github.com/kolidesa'>
+	            			<i title="Github" class="bi-github"></i>
+	            		</a>
+	            	</div>
+	            	<div class="col-2">
+	            		<a class="text-white" href='http://www.linkedin.com/in/adam-kolides-6b0b5119b'>
+	            			<i title="linkedin" class="bi-linkedin"></i>
+	            		</a>
+	            	</div>
+	            	<div class="col-md-2">
+	            		<a class="text-white" href='contact.html'>
+	            			<i title="email" class="bi-envelope"></i>
+	            		</a>
+	            	</div>
 				</div>
-				<div class="row pt-4">
-					<div class="col center">
-						<span>Copyright <span id='copyrightYear'></span></span>
-					</div>
-				</div>
-	        </div>
+			</div>
+			<div class="row">
+				<div class="col justify-content-center">
+			    	<span>Copyright <span id='copyrightYear'></span></span>
+			    </div>
+			</div>
    		 </footer>
 		<script src="script.js"></script>
 	</body>
