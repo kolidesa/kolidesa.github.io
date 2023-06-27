@@ -5,9 +5,11 @@
 		<link rel="shortcut icon" href='./images/favicon.ico'>
 		<link rel="stylesheet" media='screen' href="style.css">
 		<!--<link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css">-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	<body onload="copyrightDate()">
+	<body class='backgroundcolor white-text' onload="copyrightDate()">
 
 		<!--Header-->
 		<div class="w3-top">
@@ -37,41 +39,29 @@
 		<br>
 		<br>
 		<br>
-		<h1 class='indent w3-animate-left font'>About me</h1>
-
+		<div>
+		<div class='row'>
+			<h1 class='indent w3-animate-left font'>About me</h1>
+		</div>
 		<button onclick="expand('general')" class='padded block w3-round-xxlarge indent bigger-font white-background'>
 			<div id='generalButton' class='typewriter-font shiftRight'>General</div>
 		</button>
 		
-		<div class="row">
-			<div class='center'>
-				<p>I first started coding in 9th grade. I really enjoyed the creativity that coding allowed and the near endless 	possibilities that it provided. I continued to take all the coding courses available at my high school, and	decided that I wanted to major in it at university. 
-				<br>
-				<br>
-				I attended Duquesne University for both my Bachelor of Science and Master's of Science in Computer Science.
-				<br>
-				<br>
-				Click each tab below to view more information about it, or clikc the button below to download my resume.
-				<br>
-				<br>
-				<button type="submit" class='white-background white-text center' onclick="window.open('Adam Kolides Resume.pdf')">My resume</button>
-			</p>
-			</div>
-		</div>
+	
 
-		<!--<div id='general' class='center indent hide'>
+		<div id='general' class='center indent hide'>
 			<p>I first started coding in 9th grade. I really enjoyed the creativity that coding allowed and the near endless 	possibilities that it provided. I continued to take all the coding courses available at my high school, and	decided that I wanted to major in it at university. 
 				<br>
 				<br>
 				I attended Duquesne University for both my Bachelor of Science and Master's of Science in Computer Science.
 				<br>
 				<br>
-				Click each tab below to view more information about it, or clikc the button below to download my resume.
+				Click each tab below to view more information about it, or click the button below to download my resume.
 				<br>
 				<br>
 				<button type="submit" class='white-background white-text center' onclick="window.open('Adam Kolides Resume.pdf')">My resume</button>
 			</p>
-		</div>-->
+		</div>
 
 		<button onclick="expand('education')" class='padded block w3-round-xxlarge bigger-font white-background'>
 			<div id='educationButton' class=' shiftRight'>Education</div>
@@ -489,24 +479,34 @@
 				<span class="dot" onclick="currentSlide(4)"></span>
 			</div>
 		</div>
-		
+		</div>
 		<br>
-		<footer>
-			<table class='centered-table'>
-				<tr>
-					<th>
-						<a href='https://github.com/kolidesa'>Github</a>
-					</th>
-					<th>
-						<a href='http://www.linkedin.com/in/adam-kolides-6b0b5119b'>LinkedIn</a>
-					</th>
-					<th>
-						<a href='contact.html'>Contact me</a>
-					</th>
-				</tr>
-			</table>
-			<p id='copyrightYear'></p>
-		</footer>
+		<footer class="w-100 pb-4 navbar-fixed-bottom flex-shrink-0">
+		    <div class="container py-4">
+	            <div class="row justify-content-center">
+	            	<div class="col-md-2">
+	            		<a class="text-white" href='https://github.com/kolidesa'>
+	            			<i title="Github" class="bi-github"></i>
+	            		</a>
+	            	</div>
+	            	<div class="col-2">
+	            		<a class="text-white" href='http://www.linkedin.com/in/adam-kolides-6b0b5119b'>
+	            			<i title="linkedin" class="bi-linkedin fa-8x"></i>
+	            		</a>
+	            	</div>
+	            	<div class="col-md-2">
+	            		<a class="text-white" href='contact.html'>
+	            			<i title="email" class="bi-envelope fa-8x"></i>
+	            		</a>
+	            	</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col justify-content-center">
+			    	<span>Copyright <span id='copyrightYear'></span></span>
+			    </div>
+			</div>
+   		 </footer>
 		<script src="script.js"></script>
 	</body>
 	
