@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='en' class='backgroundcolor'>
 	<head>
 		<title>Adam Kolides</title>
 		<link rel="shortcut icon" href='./images/favicon.ico'>
 		<link rel="stylesheet" media='screen' href="style.css">
 		<!--<link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css">-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	<body onload='copyrightDate()'>
+	<body class='backgroundcolor white-text' onload='copyrightDate()'>
 
 		<!--Header-->
 		<div class="w3-top">
@@ -20,11 +21,15 @@
 		    	<a href="projects.html" class="w3-bar-item w3-button">Projects</a>
 		    	<a href="contact.html" class="w3-bar-item w3-button">Contact</a>
 		    </div>
-		    <button class="hamburger hamburger--spin" onclick='toggleActive()' id='hamburger' type="button">
-			  <span class="hamburger-box">
-			    <span class="hamburger-inner"></span>
-			  </span>
-			</button>
+			<div class="row">
+				<div class="col d-md-none">
+				    <button class="hamburger hamburger--spin" onclick='toggleActive()' id='hamburger' type="button">
+					  <span class="hamburger-box">
+					    <span class="hamburger-inner"></span>
+					  </span>
+					</button>
+				</div>
+			</div>
 		  </div>
 		  <div class='center hide' id='menuOptions'>
 		  	<a href="index.html" class="w3-bar-item w3-button">Home</a>
@@ -38,37 +43,45 @@
 		<img src="./images/skyline.webp" alt="Image of cityscape" class='banner'>
 		<br>
 		
-		<div class='center intro'>
-			<p>Hi, my name is Adam. Welcome to my website, where I'll be sharing my skills, experiences, and projects that I've worked on. 
-			<br>
-			I have 9 years of coding experience in a variety of programming languages. Take a look at the "About me" section to see a full list. I'm interested in software design and engineering, cybersecurity, and web design (both front and back end).
-			<br>
-			<br>
-			<img src="./images/adam2.jpg" alt='Adam Kolides' class='circular_image center-image'>
-			<br>
-			<br>
-			Feel free to explore my website and don't hesitate to reach out if you have any questions!
-			</p>
+		<div class='row backgroundcolor'>
+			<div class='col-lg-6 center mx-auto' style='width: 900px;'>
+				<p>Hi, my name is Adam. Welcome to my website, where I'll be sharing my skills, experiences, and projects that I've worked on. 
+					<br>
+					I have 9 years of coding experience in a variety of programming languages. Take a look at the "About me" section to see a full list. I'm interested in software design and engineering, cybersecurity, and web design (both front and back end).
+				</p>
+			</div>
+			<div class='col-6 center'>
+				<img src="./images/adam2.jpg" alt='Adam Kolides' class='circular_image center-image'>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col center'>
+				<p>Feel free to explore my website and don't hesitate to reach out if you have any questions!</p>
+			</div>
 		</div>
 
 		<br>
 
-		<footer>
-			<table class='centered-table'>
-				<tr>
-					<th>
-						<a href='https://github.com/kolidesa'>Github</a>
-					</th>
-					<th>
-						<a href='http://www.linkedin.com/in/adam-kolides-6b0b5119b'>LinkedIn</a>
-					</th>
-					<th>
-						<a href='contact.html'>Contact me</a>
-					</th>
-				</tr>
-			</table>
-			<p id='copyrightYear'></p>
-		</footer>
+		<footer class="w-100 pb-4 flex-shrink-0">
+		    <div class="container py-4">
+	            <div class="row justify-content-center">
+					<div class="col-md-2">
+						<a class="text-white" href='https://github.com/kolidesa'>Github</a>
+					</div>
+					<div class="col-md-1">
+						<a class="text-white" href='http://www.linkedin.com/in/adam-kolides-6b0b5119b'>LinkedIn</a>
+					</div>
+					<div class="col-md-2">
+						<a class="text-white" href='contact.html'>Contact me</a>
+					</div>
+				</div>
+				<div class="row pt-4">
+					<div class="col center">
+						<span>Copyright <span id='copyrightYear'></span></span>
+					</div>
+				</div>
+	        </div>
+   		 </footer>
 		<script src="script.js"></script>
 	</body>
 </html>
