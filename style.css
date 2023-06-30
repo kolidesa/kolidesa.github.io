@@ -398,6 +398,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   font-size: 2.5em;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  text-decoration: none;
 }
 
 /* Position the "next button" to the right */
