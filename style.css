@@ -169,15 +169,11 @@ div .w3-bar {
 }
 
 footer {
-  /*position: sticky;*/
-	
- /*margin-top: -100px;
-  height: 100px;*/
-  height: 5em;
+  position: fixed;
+  width: 100%;
+  left: 0;
   bottom: 0;
-	padding-bottom: 1.5%;
-	display: flex;
-	width: 100%;
+  padding-bottom: 1em;
 	text-align: center;
 	background-color: #3AAFA9;
 	color: white;
@@ -380,7 +376,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  height: 25em;/*500px;*/
+  height: 20em;/*500px;*/
 }
 
 /* Slides */
