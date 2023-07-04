@@ -41,7 +41,7 @@ function showSlides(n) {
 }
 
 function updateCS(year) {
-	const years = [2015, 2019, 2018, 2019, 2019, 2019, 2020];
+	const years = [2015, 2019, 2018, 2019, 2019, 2019, 2020, 2022];
 	for (let i = 0; i < years.length; i++) {
 		years[i] = year - years[i];
 	}
@@ -72,6 +72,9 @@ function expand(id) {
 	} else { 
 		x.className = x.className.replace(" shiftLeft", "");
 		x.className += " shiftRight";
+	}
+	if (id == 'experience') {
+		currentSlide(1);
 	}
 }
 
