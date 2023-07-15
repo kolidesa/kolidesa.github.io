@@ -1,6 +1,6 @@
 html {
 	color: #DEF2F1;
-	background-color: #17252A;
+	background-color: #17252A !important;
 	font-size: 1.3em !important;
 	line-height: 1.5;
 	font-family: FreeMono !important;
@@ -132,6 +132,7 @@ div .w3-bar {
 
    .slideshow-container {
    	font-size: .5em;
+    /*background-color: #3AAFA9;*/
    }
    div button.bigger-font {
    	font-size: 1.3em !important;
@@ -168,10 +169,11 @@ div .w3-bar {
 }
 
 footer {
-	bottom: 0;
-	padding-bottom: 1.5%;
-	display: flex;
-	width: 100%;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 1em;
 	text-align: center;
 	background-color: #3AAFA9;
 	color: white;
@@ -374,7 +376,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  height: 25em;/*500px;*/
+  height: 20em;/*500px;*/
 }
 
 /* Slides */
@@ -383,6 +385,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	color: white;
   	display: none;
   	text-align: center;
+  background-color: #3AAFA9 !important;
 }
 
 /* Next & previous buttons */
@@ -398,6 +401,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   font-size: 2.5em;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  text-decoration: none;
 }
 
 /* Position the "next button" to the right */
@@ -626,6 +630,13 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .show {
 	display:block !important;
 	background-color: #3AAFA9;
+  /*width: 75%;
+  margin-left: auto;
+  margin-right: auto;*/
+}
+
+.overflow {
+  overflow: auto;
 }
 
 .indent {
