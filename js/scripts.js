@@ -33,7 +33,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-/*
+
 var c = document.getElementById("c");
 var ctx = c.getContext("2d");
 
@@ -84,4 +84,3 @@ function draw()
 }
 
 setInterval(draw, 35);
-*/
