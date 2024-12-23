@@ -10970,3 +10970,22 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.dropbox {
+    border: 2px dashed #aaa;
+    border-radius: 10px;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #555;
+    margin: 20px auto;
+}
+
+    .dropbox.dragover {
+        border-color: #00aaff;
+        background-color: #f0faff;
+    }
