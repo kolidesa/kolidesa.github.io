@@ -93,3 +93,4 @@ function toggleActive() {
 		x.clasName += " hide";
 	}
 }
+

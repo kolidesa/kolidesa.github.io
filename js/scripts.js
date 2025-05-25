@@ -30,6 +30,8 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
+    console.log(new Date().getFullYear());
+    document.querySelector("#yearsCodingExperience").innerText = new Date().getFullYear() - 2015;
 
 });
 
