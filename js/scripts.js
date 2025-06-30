@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
+    document.querySelector("#yearsCodingExperience").innerText = new Date().getFullYear() - 2015;
 });
 
 /*
