@@ -139,10 +139,29 @@ async function handleFiles(files) {
         const followersNotFollowingBack = [];
 
         // Extract following list
-        following.relationships_following.forEach(item => {
-            const tempVal = item.string_list_data[0].value;
-            followingArray.push(tempVal);
-        });
+        //following.relationships_following.forEach(item => {
+            //const tempVal = item.string_list_data[0].value;
+            //followingArray.push(tempVal);
+        //});
+
+		let followingList = [];
+
+		// Handle old vs new JSON structure
+		if (Array.isArray(following.relationships_following)) {
+		    followingList = following.relationships_following;
+		} else if (
+		    following.relationships_following &&
+		    Array.isArray(following.relationships_following.relationships_following)
+		) {
+		    followingList = following.relationships_following.relationships_following;
+		} else {
+		    throw new Error("Unrecognized format for following.json");
+		}
+		
+		followingList.forEach(item => {
+		    const tempVal = item.string_list_data[0].value;
+		    followingArray.push(tempVal);
+		});
 
         // Extract followers list and find accounts not following you back
         followers.forEach(item => {
