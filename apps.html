@@ -157,11 +157,17 @@ async function handleFiles(files) {
 		} else {
 		    throw new Error("Unrecognized format for following.json");
 		}
+
+        //console.log(followingList);
 		
 		followingList.forEach(item => {
-		    const tempVal = item.string_list_data[0].value;
-		    followingArray.push(tempVal);
-		});
+            // New Instagram export stores username in "title"
+            const tempVal = item.title?.trim();
+
+            if (tempVal) {
+                followingArray.push(tempVal);
+            }
+        });
 
         // Extract followers list and find accounts not following you back
         followers.forEach(item => {
@@ -172,6 +178,8 @@ async function handleFiles(files) {
                 notFollowingBack.push(tempVal);
             }
         });
+
+        console.log(followersArray);
 
         // Find accounts you don't follow back
         followingArray.forEach(user => {
