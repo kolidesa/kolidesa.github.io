@@ -10989,3 +10989,48 @@ section.resume-section .resume-section-content {
         border-color: #00aaff;
         background-color: #f0faff;
     }
+
+body {
+    background-color: #121212; /* dark gray, better than pure black */
+    color: #e0e0e0; /* light gray text */
+}
+
+.resume-section {
+    background-color: #121212;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+.bg-primary {
+    background-color: #d35400 !important; /* deeper orange */
+}
+
+.text-primary {
+    color: #ff7a00 !important;
+}
+
+.card,
+.accordion-item {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border-color: #333;
+}
+
+.accordion-button {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #2a2a2a;
+}
+
+a {
+    color: #ff7a00;
+}
+
+a:hover {
+    color: #ffa64d;
+}
